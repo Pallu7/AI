@@ -90,6 +90,8 @@ A scatter plot of actual vs predicted duration is also included to visually chec
 References
 
 Open Energy Information (OpenEI). (n.d.). Event-correlated outage dataset in the United States (Outage Dataset v1) [Data set]. U.S. Department of Energy. https://data.openei.org/submissions/6458
+
 Géron, A. (2019). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow (2nd ed.). O’Reilly Media.
+
 Scikit-learn developers. (n.d.). Scikit-learn documentation. https://scikit-learn.org
 
