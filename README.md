@@ -11,6 +11,7 @@ follows the full workflow required in AIT620: problem statement, data understand
 preparation, modeling, and evaluation.
 
 Table of Content
+
 - Problem  
 - Data Understanding  
 - Data Preparation  
@@ -19,6 +20,7 @@ Table of Content
 - References
   
 Problem
+
 Outages vary widely in duration depending on the type of event, severity, and response
 conditions. Long outages cause major disruption and financial loss. The goal of this
 project is to answer the question:
@@ -26,6 +28,7 @@ Can we predict the duration of a power outage (in minutes) using historical outa
 This is a supervised learning regression problem where outage duration is the target variable.
 
 Data Understanding
+
 This project uses a real dataset: Event-correlated Outage Dataset in America (Outage Dataset v1.zip).
 It contains aggregated and event-correlated outage information synthesized from multiple sources
 
@@ -36,6 +39,7 @@ selects a relevant CSV automatically, and then creates a machine learning datase
 - cleaning missing/invalid duration values
   
 Data Preparation
+
 The dataset is prepared in a structured way to ensure it can be used for machine learning.
 The following steps are performed:
 1. Download the real dataset ZIP 
@@ -67,6 +71,7 @@ This preparation ensures the dataset is clean, model-ready, and suitable for tra
 evaluating a regression model.
 
 Modeling
+
 This project uses a Random Forest regression model. Random Forest works well for structured
 tabular data, can model nonlinear relationships, and is robust to noisy real-world data.
 A preprocessing pipeline is used to handle mixed feature types:
@@ -75,6 +80,7 @@ A preprocessing pipeline is used to handle mixed feature types:
 The model is trained on 80% of the data and tested on 20%.
 
 Evaluation
+
 The model is evaluated using common regression metrics:
 - MAE (Mean Absolute Error)
 - RMSE (Root Mean Squared Error)
@@ -82,6 +88,7 @@ The model is evaluated using common regression metrics:
 A scatter plot of actual vs predicted duration is also included to visually check model performance.
 
 References
+
 Open Energy Information (OpenEI). (n.d.). Event-correlated outage dataset in the United States (Outage Dataset v1) [Data set]. U.S. Department of Energy. https://data.openei.org/submissions/6458
 Géron, A. (2019). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow (2nd ed.). O’Reilly Media.
 Scikit-learn developers. (n.d.). Scikit-learn documentation. https://scikit-learn.org
